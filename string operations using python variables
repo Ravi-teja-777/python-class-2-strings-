@@ -1,0 +1,44 @@
+# VARIABLES USING STRING OPERATIONS
+
+print("Rules should follow for variables")
+print("1. variables shouldn't start with NUMBERS or Symbols or Operators \n2. variables shouldn't contain any WHITESPACES \n3. variables shouldn't KEY WORDS")
+
+# variables can strore strings
+print("\n")
+name = "ravi teja"   #string
+print("name :",name)
+
+# vraiable can used as arry for string operations
+a = "Harsha"   #indexing H-0,a-1,r-2,s-3,h-4,a-5
+print("\nindex 0   :",a[0])
+print("index 0-3 :",a[0:4])
+print("index 3-5 :",a[3:6])
+print("index 0-6 :",a[0:6])
+print("index 0-6 :",a[0:])
+print("index 0-6 :",a[:6])
+print("index 6 :",a[-1])
+print("index 3 :",a[-3])
+
+print("\n")
+# we can't change a sinle charachter in the sring but we can change entire string
+x = "tharuna"
+print("before :",x)
+x = "tharuna sree"
+print("after changing :",x)
+
+# by using variable we can find the length of the string and integers
+print("\nNote : we can't we len key word for INT and FlOAT")
+print("we can find by using key word -len ")
+w = "prasanna sai"  #string
+print("the length of the string is :",len(w))
+
+q = "124859349"  #string
+print("\nlength is :",len(q))
+
+# we can add string and integer by converting int to string
+print("\n")
+age = 20
+name = "my age is : "
+print(name + str(age))
+
+
